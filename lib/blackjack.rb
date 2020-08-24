@@ -45,13 +45,13 @@ def hit?(current_card_total)
     current_card_total += deal_card
   else 
     invalid_command
+    prompt_user
   end
 end
 
 def invalid_command
   # code invalid_command here
   puts "Please enter a valid command"
-  get_user_input
 end
 
 #####################################################
