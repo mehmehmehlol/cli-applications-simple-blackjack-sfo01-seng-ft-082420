@@ -62,6 +62,7 @@ end
 def runner
   # code runner here
   welcome
+  until card
   initial_round
   hit?
   
